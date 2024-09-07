@@ -13,7 +13,7 @@ const PaymentMethod: React.FC<PaymentMethodProps> = ({ amount, onSuccess }) => {
     reference: (new Date()).getTime().toString(),
     email: 'olivehendendrilgen1@gmail.com',
     amount: amount * 100,
-    publicKey: 'pk_test_a7961d4fbeaf8f2da658a5cd92df761415594574',
+    publicKey: 'pk_live_abb46c94037e7ed68475a89415ebcb2fd5b3dbc5',
     currency: 'KES',
     channels: ['card', 'mobile_money'],
   };
